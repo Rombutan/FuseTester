@@ -130,19 +130,6 @@ FuseTester/fast:
 .PHONY : FuseTester/fast
 
 #=============================================================================
-# Target rules for targets named FuseTester_ws2812_pio_h
-
-# Build rule for target.
-FuseTester_ws2812_pio_h: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FuseTester_ws2812_pio_h
-.PHONY : FuseTester_ws2812_pio_h
-
-# fast build rule for target.
-FuseTester_ws2812_pio_h/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester_ws2812_pio_h.dir/build.make CMakeFiles/FuseTester_ws2812_pio_h.dir/build
-.PHONY : FuseTester_ws2812_pio_h/fast
-
-#=============================================================================
 # Target rules for targets named ELF2UF2Build
 
 # Build rule for target.
@@ -233,13 +220,13 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
-home/rombutan/pico-sdk/src/common/pico_sync/critical_section.o: home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/critical_section.o
+home/rombutan/pico-sdk/src/common/pico_sync/critical_section.obj: home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.o
+home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 home/rombutan/pico-sdk/src/common/pico_sync/critical_section.i: home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : home/rombutan/pico-sdk/src/common/pico_sync/critical_section.i
@@ -257,13 +244,13 @@ home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : home/rombutan/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-home/rombutan/pico-sdk/src/common/pico_sync/lock_core.o: home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/lock_core.o
+home/rombutan/pico-sdk/src/common/pico_sync/lock_core.obj: home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.o
+home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 home/rombutan/pico-sdk/src/common/pico_sync/lock_core.i: home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : home/rombutan/pico-sdk/src/common/pico_sync/lock_core.i
@@ -281,13 +268,13 @@ home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : home/rombutan/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-home/rombutan/pico-sdk/src/common/pico_sync/mutex.o: home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/mutex.o
+home/rombutan/pico-sdk/src/common/pico_sync/mutex.obj: home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.o
+home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 home/rombutan/pico-sdk/src/common/pico_sync/mutex.i: home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : home/rombutan/pico-sdk/src/common/pico_sync/mutex.i
@@ -305,13 +292,13 @@ home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : home/rombutan/pico-sdk/src/common/pico_sync/mutex.c.s
 
-home/rombutan/pico-sdk/src/common/pico_sync/sem.o: home/rombutan/pico-sdk/src/common/pico_sync/sem.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/sem.o
+home/rombutan/pico-sdk/src/common/pico_sync/sem.obj: home/rombutan/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/common/pico_sync/sem.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/sem.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/sem.c.o
+home/rombutan/pico-sdk/src/common/pico_sync/sem.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_sync/sem.c.obj
 
 home/rombutan/pico-sdk/src/common/pico_sync/sem.i: home/rombutan/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : home/rombutan/pico-sdk/src/common/pico_sync/sem.i
@@ -329,13 +316,13 @@ home/rombutan/pico-sdk/src/common/pico_sync/sem.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : home/rombutan/pico-sdk/src/common/pico_sync/sem.c.s
 
-home/rombutan/pico-sdk/src/common/pico_time/time.o: home/rombutan/pico-sdk/src/common/pico_time/time.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_time/time.o
+home/rombutan/pico-sdk/src/common/pico_time/time.obj: home/rombutan/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/common/pico_time/time.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_time/time.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_time/time.c.o
+home/rombutan/pico-sdk/src/common/pico_time/time.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_time/time.c.obj
 
 home/rombutan/pico-sdk/src/common/pico_time/time.i: home/rombutan/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : home/rombutan/pico-sdk/src/common/pico_time/time.i
@@ -353,13 +340,13 @@ home/rombutan/pico-sdk/src/common/pico_time/time.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : home/rombutan/pico-sdk/src/common/pico_time/time.c.s
 
-home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.o: home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.o
+home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.obj: home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.o
+home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.i: home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.i
@@ -377,13 +364,13 @@ home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-home/rombutan/pico-sdk/src/common/pico_util/datetime.o: home/rombutan/pico-sdk/src/common/pico_util/datetime.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_util/datetime.o
+home/rombutan/pico-sdk/src/common/pico_util/datetime.obj: home/rombutan/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/common/pico_util/datetime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_util/datetime.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_util/datetime.c.o
+home/rombutan/pico-sdk/src/common/pico_util/datetime.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_util/datetime.c.obj
 
 home/rombutan/pico-sdk/src/common/pico_util/datetime.i: home/rombutan/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : home/rombutan/pico-sdk/src/common/pico_util/datetime.i
@@ -401,13 +388,13 @@ home/rombutan/pico-sdk/src/common/pico_util/datetime.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : home/rombutan/pico-sdk/src/common/pico_util/datetime.c.s
 
-home/rombutan/pico-sdk/src/common/pico_util/pheap.o: home/rombutan/pico-sdk/src/common/pico_util/pheap.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_util/pheap.o
+home/rombutan/pico-sdk/src/common/pico_util/pheap.obj: home/rombutan/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/common/pico_util/pheap.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_util/pheap.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_util/pheap.c.o
+home/rombutan/pico-sdk/src/common/pico_util/pheap.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_util/pheap.c.obj
 
 home/rombutan/pico-sdk/src/common/pico_util/pheap.i: home/rombutan/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : home/rombutan/pico-sdk/src/common/pico_util/pheap.i
@@ -425,13 +412,13 @@ home/rombutan/pico-sdk/src/common/pico_util/pheap.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : home/rombutan/pico-sdk/src/common/pico_util/pheap.c.s
 
-home/rombutan/pico-sdk/src/common/pico_util/queue.o: home/rombutan/pico-sdk/src/common/pico_util/queue.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_util/queue.o
+home/rombutan/pico-sdk/src/common/pico_util/queue.obj: home/rombutan/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/common/pico_util/queue.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_util/queue.c.o
-.PHONY : home/rombutan/pico-sdk/src/common/pico_util/queue.c.o
+home/rombutan/pico-sdk/src/common/pico_util/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : home/rombutan/pico-sdk/src/common/pico_util/queue.c.obj
 
 home/rombutan/pico-sdk/src/common/pico_util/queue.i: home/rombutan/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : home/rombutan/pico-sdk/src/common/pico_util/queue.i
@@ -449,13 +436,13 @@ home/rombutan/pico-sdk/src/common/pico_util/queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : home/rombutan/pico-sdk/src/common/pico_util/queue.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.o: home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.i: home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.i
@@ -473,13 +460,13 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
@@ -497,21 +484,21 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.o: home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
@@ -529,13 +516,13 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.o: home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.i: home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.i
@@ -553,13 +540,13 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.o: home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.i: home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.i
@@ -577,45 +564,21 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.o: home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.o
-
-# target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
-
-home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.i
-
-# target to preprocess a source file
-home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.s
-
-# target to generate assembly for a file
-home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-
-home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.o: home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.i: home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.i
@@ -633,13 +596,13 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.o: home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.i: home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.i
@@ -657,13 +620,13 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.o: home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.i: home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.i
@@ -681,13 +644,13 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.o: home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.i: home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.i
@@ -705,13 +668,13 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
@@ -729,13 +692,13 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
@@ -753,13 +716,13 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
@@ -777,21 +740,21 @@ home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
+home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
+home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
@@ -809,29 +772,29 @@ home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.o: home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.o
+home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.S.o
+home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.o: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.o
-
-# target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-
-home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.o: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.o
+home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+
+# target to build an object file
+home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
@@ -849,13 +812,13 @@ home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.o: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.o
+home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.obj: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.i: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.i
@@ -873,29 +836,29 @@ home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o
+home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
+home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.o: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.o
-
-# target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-
-home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.o: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.o
+home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+
+home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+
+# target to build an object file
+home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
@@ -913,13 +876,13 @@ home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.o: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.o
+home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.obj: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.i: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.i
@@ -937,29 +900,29 @@ home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o
+home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
+home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
-
-# target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-
-home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o: home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o
+home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+
+# target to build an object file
+home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
@@ -977,21 +940,21 @@ home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
+home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.o: home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.o
+home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.obj: home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.i: home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.i
@@ -1009,13 +972,13 @@ home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.o: home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.o
+home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.obj: home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.i: home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.i
@@ -1033,13 +996,13 @@ home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.o: home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.o
+home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.i: home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.i
@@ -1057,13 +1020,13 @@ home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o: home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o
+home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
@@ -1081,21 +1044,21 @@ home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.o: home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.o
+home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
+home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o: home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o
+home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
+home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
@@ -1113,13 +1076,13 @@ home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.o: home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.o
+home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.i: home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.i
@@ -1137,13 +1100,13 @@ home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o
+home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
@@ -1161,13 +1124,13 @@ home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
+home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 
 # target to build an object file
-home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
@@ -1185,29 +1148,53 @@ home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+main.obj: main.c.obj
+.PHONY : main.obj
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/main.c.obj
+.PHONY : main.c.obj
 
-main.i: main.cpp.i
+main.i: main.c.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/main.c.s
+.PHONY : main.c.s
+
+pico-ads1115/lib/ads1115.obj: pico-ads1115/lib/ads1115.c.obj
+.PHONY : pico-ads1115/lib/ads1115.obj
+
+# target to build an object file
+pico-ads1115/lib/ads1115.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj
+.PHONY : pico-ads1115/lib/ads1115.c.obj
+
+pico-ads1115/lib/ads1115.i: pico-ads1115/lib/ads1115.c.i
+.PHONY : pico-ads1115/lib/ads1115.i
+
+# target to preprocess a source file
+pico-ads1115/lib/ads1115.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.i
+.PHONY : pico-ads1115/lib/ads1115.c.i
+
+pico-ads1115/lib/ads1115.s: pico-ads1115/lib/ads1115.c.s
+.PHONY : pico-ads1115/lib/ads1115.s
+
+# target to generate assembly for a file
+pico-ads1115/lib/ads1115.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FuseTester.dir/build.make CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.s
+.PHONY : pico-ads1115/lib/ads1115.c.s
 
 # Help Target
 help:
@@ -1218,7 +1205,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ELF2UF2Build"
-	@echo "... FuseTester_ws2812_pio_h"
 	@echo "... PioasmBuild"
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
@@ -1226,128 +1212,128 @@ help:
 	@echo "... cyw43_firmware_package"
 	@echo "... FuseTester"
 	@echo "... bs2_default"
-	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/critical_section.o"
+	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/lock_core.o"
+	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/lock_core.obj"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/lock_core.i"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/mutex.o"
+	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/mutex.obj"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/mutex.i"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/sem.o"
+	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/sem.obj"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/sem.i"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... home/rombutan/pico-sdk/src/common/pico_time/time.o"
+	@echo "... home/rombutan/pico-sdk/src/common/pico_time/time.obj"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_time/time.i"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_time/time.s"
-	@echo "... home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.o"
+	@echo "... home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.obj"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.i"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... home/rombutan/pico-sdk/src/common/pico_util/datetime.o"
+	@echo "... home/rombutan/pico-sdk/src/common/pico_util/datetime.obj"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_util/datetime.i"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... home/rombutan/pico-sdk/src/common/pico_util/pheap.o"
+	@echo "... home/rombutan/pico-sdk/src/common/pico_util/pheap.obj"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_util/pheap.i"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... home/rombutan/pico-sdk/src/common/pico_util/queue.o"
+	@echo "... home/rombutan/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... home/rombutan/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_claim/claim.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.i"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_pio/pio.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_platform/platform.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.o"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
-	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
+	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/rombutan/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... main.o"
+	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pico-ads1115/lib/ads1115.obj"
+	@echo "... pico-ads1115/lib/ads1115.i"
+	@echo "... pico-ads1115/lib/ads1115.s"
 .PHONY : help
 
 

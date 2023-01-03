@@ -1,5 +1,5 @@
 # Set minimum required version of CMake
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 3.13)
 
 set(PICO_SDK_PATH $ENV{PICO_SDK_PATH})
 message("Using PICO_SDK_PATH from environment ('${PICO_SDK_PATH}')")
@@ -7,6 +7,8 @@ message("Using PICO_SDK_PATH from environment ('${PICO_SDK_PATH}')")
 # Include build functions from Pico SDK
 include(${PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 include(${PICO_SDK_PATH}/tools/CMakeLists.txt)
+
+add_subdirectory(pico-ads1115/lib ads1115)
 
 # Set name of project (as PROJECT_NAME) and C/C++ standards
 project(FuseTester C CXX ASM)
@@ -18,12 +20,7 @@ pico_sdk_init()
 
 # Tell CMake where to find the executable source file
 add_executable(${PROJECT_NAME}
-    main.cpp
-)
-
-# Create C header file with the name <pio program>.pio.h
-pico_generate_pio_header(${PROJECT_NAME}
-        ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio
+    main.c
 )
 
 # Create map/bin/hex/uf2 files
@@ -32,8 +29,8 @@ pico_add_extra_outputs(${PROJECT_NAME})
 # Link to pico_stdlib (gpio, time, etc. functions)
 target_link_libraries(${PROJECT_NAME}
     pico_stdlib
-    hardware_pio
     hardware_i2c
+    pico-ads1115
 )
 
 # Enable usb output, disable uart output

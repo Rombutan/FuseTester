@@ -1,0 +1,3 @@
+/home/rombutan/Documents/FuseTester/build/pioasm/CMakeFiles/pioasm.dir
+/home/rombutan/Documents/FuseTester/build/pioasm/CMakeFiles/edit_cache.dir
+/home/rombutan/Documents/FuseTester/build/pioasm/CMakeFiles/rebuild_cache.dir

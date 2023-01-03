@@ -1,8 +1,9 @@
 /home/rombutan/Documents/FuseTester/build/CMakeFiles/FuseTester.dir
-/home/rombutan/Documents/FuseTester/build/CMakeFiles/FuseTester_ws2812_pio_h.dir
 /home/rombutan/Documents/FuseTester/build/CMakeFiles/ELF2UF2Build.dir
 /home/rombutan/Documents/FuseTester/build/CMakeFiles/edit_cache.dir
 /home/rombutan/Documents/FuseTester/build/CMakeFiles/rebuild_cache.dir
+/home/rombutan/Documents/FuseTester/build/ads1115/CMakeFiles/edit_cache.dir
+/home/rombutan/Documents/FuseTester/build/ads1115/CMakeFiles/rebuild_cache.dir
 /home/rombutan/Documents/FuseTester/build/pico-sdk/CMakeFiles/edit_cache.dir
 /home/rombutan/Documents/FuseTester/build/pico-sdk/CMakeFiles/rebuild_cache.dir
 /home/rombutan/Documents/FuseTester/build/pico-sdk/tools/CMakeFiles/edit_cache.dir

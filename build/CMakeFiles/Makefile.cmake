@@ -14,12 +14,16 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
+  "/home/rombutan/Documents/FuseTester/pico-ads1115/lib/CMakeLists.txt"
   "/home/rombutan/pico-sdk/CMakeLists.txt"
+  "/home/rombutan/pico-sdk/cmake/Platform/PICO.cmake"
   "/home/rombutan/pico-sdk/cmake/pico_pre_load_platform.cmake"
   "/home/rombutan/pico-sdk/cmake/pico_pre_load_toolchain.cmake"
   "/home/rombutan/pico-sdk/cmake/pico_utils.cmake"
   "/home/rombutan/pico-sdk/cmake/preload/platforms/pico/pico.cmake"
   "/home/rombutan/pico-sdk/cmake/preload/platforms/rp2040.cmake"
+  "/home/rombutan/pico-sdk/cmake/preload/toolchains/find_compiler.cmake"
+  "/home/rombutan/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake"
   "/home/rombutan/pico-sdk/docs/CMakeLists.txt"
   "/home/rombutan/pico-sdk/external/pico_sdk_import.cmake"
   "/home/rombutan/pico-sdk/lib/tinyusb/hw/bsp/family_support.cmake"
@@ -130,11 +134,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake/Modules/FindPython/Support.cmake"
   "/usr/share/cmake/Modules/FindPython3.cmake"
-  "/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake"
-  "/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake"
-  "/usr/share/cmake/Modules/Platform/Linux-GNU.cmake"
-  "/usr/share/cmake/Modules/Platform/Linux.cmake"
-  "/usr/share/cmake/Modules/Platform/UnixPaths.cmake"
   )
 
 # The corresponding makefile is:
@@ -149,6 +148,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt"
   "elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ads1115/CMakeFiles/CMakeDirectoryInformation.cmake"
   "generated/pico_base/pico/version.h"
   "generated/pico_base/pico/config_autogen.h"
   "pico-sdk/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -233,7 +233,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/FuseTester.dir/DependInfo.cmake"
-  "CMakeFiles/FuseTester_ws2812_pio_h.dir/DependInfo.cmake"
   "CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/DependInfo.cmake"
   "pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake"
