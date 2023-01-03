@@ -1,0 +1,6 @@
+[submodule "pico-ads1115"]
+	path = pico-ads1115
+	url = git@github.com:antgon/pico-ads1115.git
+[submodule "pico-ssd1306"]
+	path = pico-ssd1306
+	url = git@github.com:daschr/pico-ssd1306.git
