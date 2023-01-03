@@ -5,7 +5,8 @@
 1. Clone repo
 ```git clone git@github.com:Rombutan/FuseTester.git --recurse-submodules```
 2. Move to build dir and compile
-```cd FuseTester/build
+```
+cd FuseTester/build
 cmake ..
 make
 ```
