@@ -7,6 +7,7 @@
 2. Move to build dir and compile
 ```cd FuseTester/build
 cmake ..
-make```
+make
+```
 3. Plug in your pico while holding down the boot button
 4. Copy `FuseTester.uf2` from build dir to your pi pico
