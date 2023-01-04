@@ -688,24 +688,346 @@ CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/FuseTester.dir/flags.make
-CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/FuseTester.dir/flags.make
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/FuseTester.dir/flags.make
 CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -719,7 +1041,7 @@ CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c
 CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj: CMakeFiles/FuseTester.dir/flags.make
 CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj: /home/rombutan/Documents/FuseTester/pico-ads1115/lib/ads1115.c
 CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj: CMakeFiles/FuseTester.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj"
 	/usr/lib64/ccache/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj -MF CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj.d -o CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj -c /home/rombutan/Documents/FuseTester/pico-ads1115/lib/ads1115.c
 
 CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.i: cmake_force
@@ -777,7 +1099,30 @@ FuseTester_OBJECTS = \
 "CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
 "CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj" \
 "CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj"
 
@@ -829,13 +1174,36 @@ FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/
 FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/tusb.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 FuseTester.elf: CMakeFiles/FuseTester.dir/home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 FuseTester.elf: CMakeFiles/FuseTester.dir/pico-ads1115/lib/ads1115.c.obj
 FuseTester.elf: CMakeFiles/FuseTester.dir/build.make
 FuseTester.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 FuseTester.elf: CMakeFiles/FuseTester.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX executable FuseTester.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rombutan/Documents/FuseTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking CXX executable FuseTester.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FuseTester.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/rombutan/Documents/FuseTester/build/FuseTester.elf FuseTester.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/rombutan/Documents/FuseTester/build/FuseTester.elf FuseTester.bin

@@ -68,9 +68,23 @@ CMakeFiles/FuseTester.dir/main.c.obj: \
  /home/rombutan/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /home/rombutan/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/rombutan/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/rombutan/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/rombutan/Documents/FuseTester/pico-ads1115/lib/include/ads1115.h \
  /home/rombutan/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /home/rombutan/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
  /home/rombutan/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /home/rombutan/Documents/FuseTester/pico-ads1115/lib/include/registers.h
+ /home/rombutan/Documents/FuseTester/pico-ads1115/lib/include/registers.h \
+ /home/rombutan/Documents/FuseTester/pico-ssd1306/ssd1306.h \
+ /home/rombutan/Documents/FuseTester/pico-ssd1306/ssd1306.c \
+ /home/rombutan/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+ /home/rombutan/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+ /home/rombutan/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+ /home/rombutan/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+ /usr/arm-none-eabi/include/stdlib.h \
+ /usr/arm-none-eabi/include/machine/stdlib.h \
+ /usr/arm-none-eabi/include/alloca.h /usr/arm-none-eabi/include/string.h \
+ /usr/arm-none-eabi/include/sys/_locale.h \
+ /usr/arm-none-eabi/include/strings.h \
+ /usr/arm-none-eabi/include/sys/string.h \
+ /home/rombutan/Documents/FuseTester/pico-ssd1306/ssd1306.h \
+ /home/rombutan/Documents/FuseTester/pico-ssd1306/font.h
